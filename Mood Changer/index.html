@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>EXAMPLE</h1>
+    <h2>FIXED COLUMN WIDTH USING TD TAG</h2>
+    <div>
+        <table class="center">
+            <thread>
+            <tr>
+                <th style="color: red;">SI.NO</th>
+                <th>PRODUCT</th>
+                <th>QUANTITY</th>
+                <th>PRICE</th>
+            </tr>
+            </thread>
+            <tr>
+                <td style="color: red;">1</td>
+                <td>BOOKS</td>
+                <td colspan="2">5</td>
+                <!-- <td>589</td> -->
+            </tr>
+            <tr>
+                <td style="color: red;">2</td>
+                <td>T-Shirt</td>
+                <td rowspan="2">5</td>
+                <td>3500</td>
+            </tr>
+            <tr>
+                <td style="color: red;">3</td>
+                <td>JEANS</td>
+                <!-- <td>2</td> -->
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td style="color: red;">4</td>
+                <td>SUITS</td>
+                <td>3</td>
+                <td>6000</td>
+            </tr>
+        </table>
+    </div>
+    <button onclick="welcome()">Welcome to our website</button>
+</body>
+<script src="index.js"></script>
+</html>
